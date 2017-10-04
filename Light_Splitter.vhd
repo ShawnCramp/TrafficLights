@@ -1,0 +1,111 @@
+-- **************************************************************************
+-- Name: 			Shawn Cramp
+-- Student ID: 	111007290
+-- Name:				Edward Huang
+-- Student ID:		100949380
+-- Name:				Bruno Salapic
+-- Student ID:		100574460
+-- Version: 		2014-11-23
+-- Description:	Splits vectors of traffic lights for ease of unput into Visual_Display.vhd
+-- **************************************************************************
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Lights_Splitter is
+	port ( 	
+				Traffic_Lights 										: in std_logic_vector(15 downto 0);
+				CrossWalk_Lights 										: in std_logic_vector(15 downto 0);
+				
+				chr_numtopleftrightman 								: out std_logic;--tfor all the hands and mans on display
+				chr_numtopleftrighthand 							: out std_logic;
+				chr_numtopleftbotman									: out std_logic;
+				chr_numtopleftbothand 								: out std_logic;
+				chr_numtoprightleftman 								: out std_logic;
+				chr_numtoprightlefthand 							: out std_logic;
+				chr_numtoprightbotman								: out std_logic;
+				chr_numtoprightbothand 								: out std_logic;
+				chr_numbotleftrightman								: out std_logic;--tfor all the hands and mans on display
+				chr_numbotleftrighthand 							: out std_logic;
+				chr_numbotlefttopman									: out std_logic;
+				chr_numbotlefttophand 								: out std_logic;
+				chr_numbotrightleftman 								: out std_logic;
+				chr_numbotrightlefthand 							: out std_logic;
+				chr_numbotrighttopman								: out std_logic;
+				chr_numbotrighttophand 								: out std_logic;
+				
+				----------------------------
+				chr_numtoparrow								 		: out std_logic;--arrows
+				chr_numleftarrow 										: out std_logic;
+				chr_numrightarrow										: out std_logic;
+				chr_numbotarrow 										: out std_logic;
+				
+				-------------------------
+				chr_numtopred											: out std_logic;
+				chr_numtopyellow 										: out std_logic;--- top lights
+				chr_numtopgreen										: out std_logic;
+				-------------------------
+				chr_numleftred 										: out std_logic;
+				chr_numleftyellow 									: out std_logic;--- left lights
+				chr_numleftgreen										: out std_logic;
+				-------------------------
+				chr_numrightred 										: out std_logic;
+				chr_numrightyellow 									: out std_logic;--- right lights
+				chr_numrightgreen										: out std_logic;
+				-------------------------
+				chr_numbotred 											: out std_logic;
+				chr_numbotyellow 										: out std_logic;--- bot lights
+				chr_numbotgreen										: out std_logic
+			);
+end entity Lights_Splitter;
+
+architecture arch_Splitter of Lights_Splitter is
+begin
+				chr_numtopleftrightman 					<= CrossWalk_Lights(10);--tfor all the hands and mans on display
+				chr_numtopleftrighthand 				<= CrossWalk_Lights(11);
+				
+				chr_numtopleftbotman						<= CrossWalk_Lights(12);
+				chr_numtopleftbothand 					<= CrossWalk_Lights(13);
+				
+				chr_numtoprightleftman 					<= CrossWalk_Lights(0);
+				chr_numtoprightlefthand 				<= CrossWalk_Lights(1);
+				
+				chr_numtoprightbotman					<= CrossWalk_Lights(14);
+				chr_numtoprightbothand 					<= CrossWalk_Lights(15);
+				
+				chr_numbotleftrightman					<= CrossWalk_Lights(8);--tfor all the hands and mans on display
+				chr_numbotleftrighthand 				<= CrossWalk_Lights(9);
+				
+				chr_numbotlefttopman						<= CrossWalk_Lights(6);
+				chr_numbotlefttophand 					<= CrossWalk_Lights(7);
+				
+				chr_numbotrightleftman 					<= CrossWalk_Lights(2);
+				chr_numbotrightlefthand 				<= CrossWalk_Lights(3);
+				
+				chr_numbotrighttopman					<= CrossWalk_Lights(4);
+				chr_numbotrighttophand 					<= CrossWalk_Lights(5);
+				
+				----------------------------
+				chr_numtoparrow							<= Traffic_Lights(12);-- Advance Green
+				chr_numleftarrow 							<= Traffic_Lights(0);
+				chr_numrightarrow							<= Traffic_Lights(8);
+				chr_numbotarrow 							<= Traffic_Lights(4);
+				
+				-------------------------
+				chr_numtopred								<= Traffic_Lights(15);--- North lights
+				chr_numtopyellow 							<= Traffic_Lights(14);
+				chr_numtopgreen							<= Traffic_Lights(13);
+				-------------------------
+				chr_numleftred 							<= Traffic_Lights(3);--- West lights
+				chr_numleftyellow 						<= Traffic_Lights(2);
+				chr_numleftgreen							<= Traffic_Lights(1);
+				-------------------------
+				chr_numrightred 							<= Traffic_Lights(11);--- East lights
+				chr_numrightyellow 						<= Traffic_Lights(10);
+				chr_numrightgreen							<= Traffic_Lights(9);
+				-------------------------
+				chr_numbotred 								<= Traffic_Lights(7);--- South lights
+				chr_numbotyellow 							<= Traffic_Lights(6);
+				chr_numbotgreen							<= Traffic_Lights(5);
+end architecture arch_Splitter;

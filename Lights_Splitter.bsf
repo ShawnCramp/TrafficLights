@@ -1,0 +1,267 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 312 576)
+	(text "Lights_Splitter" (rect 5 0 60 12)(font "Arial" ))
+	(text "inst" (rect 8 544 20 556)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Traffic_Lights[15..0]" (rect 0 0 80 12)(font "Arial" ))
+		(text "Traffic_Lights[15..0]" (rect 21 27 101 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CrossWalk_Lights[15..0]" (rect 0 0 99 12)(font "Arial" ))
+		(text "CrossWalk_Lights[15..0]" (rect 21 43 120 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 296 32)
+		(output)
+		(text "chr_numtopleftrightman" (rect 0 0 94 12)(font "Arial" ))
+		(text "chr_numtopleftrightman" (rect 181 27 275 39)(font "Arial" ))
+		(line (pt 296 32)(pt 280 32)(line_width 1))
+	)
+	(port
+		(pt 296 48)
+		(output)
+		(text "chr_numtopleftrighthand" (rect 0 0 95 12)(font "Arial" ))
+		(text "chr_numtopleftrighthand" (rect 180 43 275 55)(font "Arial" ))
+		(line (pt 296 48)(pt 280 48)(line_width 1))
+	)
+	(port
+		(pt 296 64)
+		(output)
+		(text "chr_numtopleftbotman" (rect 0 0 89 12)(font "Arial" ))
+		(text "chr_numtopleftbotman" (rect 186 59 275 71)(font "Arial" ))
+		(line (pt 296 64)(pt 280 64)(line_width 1))
+	)
+	(port
+		(pt 296 80)
+		(output)
+		(text "chr_numtopleftbothand" (rect 0 0 90 12)(font "Arial" ))
+		(text "chr_numtopleftbothand" (rect 185 75 275 87)(font "Arial" ))
+		(line (pt 296 80)(pt 280 80)(line_width 1))
+	)
+	(port
+		(pt 296 96)
+		(output)
+		(text "chr_numtoprightleftman" (rect 0 0 94 12)(font "Arial" ))
+		(text "chr_numtoprightleftman" (rect 181 91 275 103)(font "Arial" ))
+		(line (pt 296 96)(pt 280 96)(line_width 1))
+	)
+	(port
+		(pt 296 112)
+		(output)
+		(text "chr_numtoprightlefthand" (rect 0 0 95 12)(font "Arial" ))
+		(text "chr_numtoprightlefthand" (rect 180 107 275 119)(font "Arial" ))
+		(line (pt 296 112)(pt 280 112)(line_width 1))
+	)
+	(port
+		(pt 296 128)
+		(output)
+		(text "chr_numtoprightbotman" (rect 0 0 94 12)(font "Arial" ))
+		(text "chr_numtoprightbotman" (rect 181 123 275 135)(font "Arial" ))
+		(line (pt 296 128)(pt 280 128)(line_width 1))
+	)
+	(port
+		(pt 296 144)
+		(output)
+		(text "chr_numtoprightbothand" (rect 0 0 95 12)(font "Arial" ))
+		(text "chr_numtoprightbothand" (rect 180 139 275 151)(font "Arial" ))
+		(line (pt 296 144)(pt 280 144)(line_width 1))
+	)
+	(port
+		(pt 296 160)
+		(output)
+		(text "chr_numbotleftrightman" (rect 0 0 94 12)(font "Arial" ))
+		(text "chr_numbotleftrightman" (rect 181 155 275 167)(font "Arial" ))
+		(line (pt 296 160)(pt 280 160)(line_width 1))
+	)
+	(port
+		(pt 296 176)
+		(output)
+		(text "chr_numbotleftrighthand" (rect 0 0 95 12)(font "Arial" ))
+		(text "chr_numbotleftrighthand" (rect 180 171 275 183)(font "Arial" ))
+		(line (pt 296 176)(pt 280 176)(line_width 1))
+	)
+	(port
+		(pt 296 192)
+		(output)
+		(text "chr_numbotlefttopman" (rect 0 0 89 12)(font "Arial" ))
+		(text "chr_numbotlefttopman" (rect 186 187 275 199)(font "Arial" ))
+		(line (pt 296 192)(pt 280 192)(line_width 1))
+	)
+	(port
+		(pt 296 208)
+		(output)
+		(text "chr_numbotlefttophand" (rect 0 0 90 12)(font "Arial" ))
+		(text "chr_numbotlefttophand" (rect 185 203 275 215)(font "Arial" ))
+		(line (pt 296 208)(pt 280 208)(line_width 1))
+	)
+	(port
+		(pt 296 224)
+		(output)
+		(text "chr_numbotrightleftman" (rect 0 0 94 12)(font "Arial" ))
+		(text "chr_numbotrightleftman" (rect 181 219 275 231)(font "Arial" ))
+		(line (pt 296 224)(pt 280 224)(line_width 1))
+	)
+	(port
+		(pt 296 240)
+		(output)
+		(text "chr_numbotrightlefthand" (rect 0 0 95 12)(font "Arial" ))
+		(text "chr_numbotrightlefthand" (rect 180 235 275 247)(font "Arial" ))
+		(line (pt 296 240)(pt 280 240)(line_width 1))
+	)
+	(port
+		(pt 296 256)
+		(output)
+		(text "chr_numbotrighttopman" (rect 0 0 94 12)(font "Arial" ))
+		(text "chr_numbotrighttopman" (rect 181 251 275 263)(font "Arial" ))
+		(line (pt 296 256)(pt 280 256)(line_width 1))
+	)
+	(port
+		(pt 296 272)
+		(output)
+		(text "chr_numbotrighttophand" (rect 0 0 95 12)(font "Arial" ))
+		(text "chr_numbotrighttophand" (rect 180 267 275 279)(font "Arial" ))
+		(line (pt 296 272)(pt 280 272)(line_width 1))
+	)
+	(port
+		(pt 296 288)
+		(output)
+		(text "chr_numtoparrow" (rect 0 0 70 12)(font "Arial" ))
+		(text "chr_numtoparrow" (rect 205 283 275 295)(font "Arial" ))
+		(line (pt 296 288)(pt 280 288)(line_width 1))
+	)
+	(port
+		(pt 296 304)
+		(output)
+		(text "chr_numleftarrow" (rect 0 0 70 12)(font "Arial" ))
+		(text "chr_numleftarrow" (rect 205 299 275 311)(font "Arial" ))
+		(line (pt 296 304)(pt 280 304)(line_width 1))
+	)
+	(port
+		(pt 296 320)
+		(output)
+		(text "chr_numrightarrow" (rect 0 0 75 12)(font "Arial" ))
+		(text "chr_numrightarrow" (rect 200 315 275 327)(font "Arial" ))
+		(line (pt 296 320)(pt 280 320)(line_width 1))
+	)
+	(port
+		(pt 296 336)
+		(output)
+		(text "chr_numbotarrow" (rect 0 0 70 12)(font "Arial" ))
+		(text "chr_numbotarrow" (rect 205 331 275 343)(font "Arial" ))
+		(line (pt 296 336)(pt 280 336)(line_width 1))
+	)
+	(port
+		(pt 296 352)
+		(output)
+		(text "chr_numtopred" (rect 0 0 61 12)(font "Arial" ))
+		(text "chr_numtopred" (rect 214 347 275 359)(font "Arial" ))
+		(line (pt 296 352)(pt 280 352)(line_width 1))
+	)
+	(port
+		(pt 296 368)
+		(output)
+		(text "chr_numtopyellow" (rect 0 0 71 12)(font "Arial" ))
+		(text "chr_numtopyellow" (rect 204 363 275 375)(font "Arial" ))
+		(line (pt 296 368)(pt 280 368)(line_width 1))
+	)
+	(port
+		(pt 296 384)
+		(output)
+		(text "chr_numtopgreen" (rect 0 0 70 12)(font "Arial" ))
+		(text "chr_numtopgreen" (rect 205 379 275 391)(font "Arial" ))
+		(line (pt 296 384)(pt 280 384)(line_width 1))
+	)
+	(port
+		(pt 296 400)
+		(output)
+		(text "chr_numleftred" (rect 0 0 61 12)(font "Arial" ))
+		(text "chr_numleftred" (rect 214 395 275 407)(font "Arial" ))
+		(line (pt 296 400)(pt 280 400)(line_width 1))
+	)
+	(port
+		(pt 296 416)
+		(output)
+		(text "chr_numleftyellow" (rect 0 0 71 12)(font "Arial" ))
+		(text "chr_numleftyellow" (rect 204 411 275 423)(font "Arial" ))
+		(line (pt 296 416)(pt 280 416)(line_width 1))
+	)
+	(port
+		(pt 296 432)
+		(output)
+		(text "chr_numleftgreen" (rect 0 0 70 12)(font "Arial" ))
+		(text "chr_numleftgreen" (rect 205 427 275 439)(font "Arial" ))
+		(line (pt 296 432)(pt 280 432)(line_width 1))
+	)
+	(port
+		(pt 296 448)
+		(output)
+		(text "chr_numrightred" (rect 0 0 66 12)(font "Arial" ))
+		(text "chr_numrightred" (rect 209 443 275 455)(font "Arial" ))
+		(line (pt 296 448)(pt 280 448)(line_width 1))
+	)
+	(port
+		(pt 296 464)
+		(output)
+		(text "chr_numrightyellow" (rect 0 0 76 12)(font "Arial" ))
+		(text "chr_numrightyellow" (rect 199 459 275 471)(font "Arial" ))
+		(line (pt 296 464)(pt 280 464)(line_width 1))
+	)
+	(port
+		(pt 296 480)
+		(output)
+		(text "chr_numrightgreen" (rect 0 0 75 12)(font "Arial" ))
+		(text "chr_numrightgreen" (rect 200 475 275 487)(font "Arial" ))
+		(line (pt 296 480)(pt 280 480)(line_width 1))
+	)
+	(port
+		(pt 296 496)
+		(output)
+		(text "chr_numbotred" (rect 0 0 61 12)(font "Arial" ))
+		(text "chr_numbotred" (rect 214 491 275 503)(font "Arial" ))
+		(line (pt 296 496)(pt 280 496)(line_width 1))
+	)
+	(port
+		(pt 296 512)
+		(output)
+		(text "chr_numbotyellow" (rect 0 0 71 12)(font "Arial" ))
+		(text "chr_numbotyellow" (rect 204 507 275 519)(font "Arial" ))
+		(line (pt 296 512)(pt 280 512)(line_width 1))
+	)
+	(port
+		(pt 296 528)
+		(output)
+		(text "chr_numbotgreen" (rect 0 0 70 12)(font "Arial" ))
+		(text "chr_numbotgreen" (rect 205 523 275 535)(font "Arial" ))
+		(line (pt 296 528)(pt 280 528)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 280 544)(line_width 1))
+	)
+)

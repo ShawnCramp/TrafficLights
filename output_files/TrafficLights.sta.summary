@@ -1,0 +1,261 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'Memory:inst6|vga_sync:vga|video_on_h'
+Slack : -24.451
+TNS   : -433.487
+
+Type  : Slow Model Setup 'Clock:inst2|Clock_1Hz_I'
+Slack : -20.186
+TNS   : -488.176
+
+Type  : Slow Model Setup 'Cross_Walk'
+Slack : -20.005
+TNS   : -243.012
+
+Type  : Slow Model Setup 'Memory:inst6|vga_sync:vga|pixel_row[10]'
+Slack : -19.345
+TNS   : -292.425
+
+Type  : Slow Model Setup 'Memory:inst6|vga_sync:vga|pixel_row[0]'
+Slack : -18.927
+TNS   : -183.015
+
+Type  : Slow Model Setup 'Reset'
+Slack : -18.361
+TNS   : -174.721
+
+Type  : Slow Model Setup 'Clock_27MHz'
+Slack : -5.223
+TNS   : -2884.691
+
+Type  : Slow Model Setup 'Clock_50MHz'
+Slack : -3.076
+TNS   : -75.946
+
+Type  : Slow Model Hold 'Reset'
+Slack : -19.262
+TNS   : -190.020
+
+Type  : Slow Model Hold 'Cross_Walk'
+Slack : -8.760
+TNS   : -85.503
+
+Type  : Slow Model Hold 'Memory:inst6|vga_sync:vga|pixel_row[0]'
+Slack : -5.166
+TNS   : -89.222
+
+Type  : Slow Model Hold 'Memory:inst6|vga_sync:vga|pixel_row[10]'
+Slack : -4.220
+TNS   : -115.735
+
+Type  : Slow Model Hold 'Memory:inst6|vga_sync:vga|video_on_h'
+Slack : -3.471
+TNS   : -67.616
+
+Type  : Slow Model Hold 'Clock_50MHz'
+Slack : -2.546
+TNS   : -2.546
+
+Type  : Slow Model Hold 'Clock:inst2|Clock_1Hz_I'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'Clock_27MHz'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'Clock:inst2|Clock_1Hz_I'
+Slack : -15.013
+TNS   : -88.238
+
+Type  : Slow Model Recovery 'Reset'
+Slack : -14.146
+TNS   : -28.276
+
+Type  : Slow Model Recovery 'Cross_Walk'
+Slack : -0.370
+TNS   : -0.414
+
+Type  : Slow Model Recovery 'Clock_50MHz'
+Slack : 0.060
+TNS   : 0.000
+
+Type  : Slow Model Removal 'Cross_Walk'
+Slack : -0.750
+TNS   : -5.876
+
+Type  : Slow Model Removal 'Reset'
+Slack : 0.000
+TNS   : 0.000
+
+Type  : Slow Model Removal 'Clock_50MHz'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Slow Model Removal 'Clock:inst2|Clock_1Hz_I'
+Slack : 0.735
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'Reset'
+Slack : -15.282
+TNS   : -1956.686
+
+Type  : Slow Model Minimum Pulse Width 'Cross_Walk'
+Slack : -3.134
+TNS   : -137.726
+
+Type  : Slow Model Minimum Pulse Width 'Clock_27MHz'
+Slack : -2.000
+TNS   : -6975.380
+
+Type  : Slow Model Minimum Pulse Width 'Clock_50MHz'
+Slack : -1.380
+TNS   : -27.380
+
+Type  : Slow Model Minimum Pulse Width 'Clock:inst2|Clock_1Hz_I'
+Slack : -0.500
+TNS   : -25.000
+
+Type  : Slow Model Minimum Pulse Width 'Memory:inst6|vga_sync:vga|pixel_row[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'Memory:inst6|vga_sync:vga|pixel_row[10]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'Memory:inst6|vga_sync:vga|video_on_h'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Memory:inst6|vga_sync:vga|video_on_h'
+Slack : -10.276
+TNS   : -174.892
+
+Type  : Fast Model Setup 'Memory:inst6|vga_sync:vga|pixel_row[10]'
+Slack : -8.696
+TNS   : -128.616
+
+Type  : Fast Model Setup 'Clock:inst2|Clock_1Hz_I'
+Slack : -8.632
+TNS   : -208.877
+
+Type  : Fast Model Setup 'Memory:inst6|vga_sync:vga|pixel_row[0]'
+Slack : -8.523
+TNS   : -80.629
+
+Type  : Fast Model Setup 'Cross_Walk'
+Slack : -8.270
+TNS   : -96.601
+
+Type  : Fast Model Setup 'Reset'
+Slack : -7.987
+TNS   : -72.488
+
+Type  : Fast Model Setup 'Clock_27MHz'
+Slack : -2.029
+TNS   : -1470.813
+
+Type  : Fast Model Setup 'Clock_50MHz'
+Slack : -0.902
+TNS   : -21.581
+
+Type  : Fast Model Hold 'Reset'
+Slack : -9.146
+TNS   : -90.337
+
+Type  : Fast Model Hold 'Cross_Walk'
+Slack : -4.260
+TNS   : -41.701
+
+Type  : Fast Model Hold 'Memory:inst6|vga_sync:vga|pixel_row[0]'
+Slack : -2.692
+TNS   : -46.609
+
+Type  : Fast Model Hold 'Memory:inst6|vga_sync:vga|pixel_row[10]'
+Slack : -2.230
+TNS   : -64.276
+
+Type  : Fast Model Hold 'Memory:inst6|vga_sync:vga|video_on_h'
+Slack : -1.934
+TNS   : -43.197
+
+Type  : Fast Model Hold 'Clock_50MHz'
+Slack : -1.589
+TNS   : -1.589
+
+Type  : Fast Model Hold 'Clock:inst2|Clock_1Hz_I'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'Clock_27MHz'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'Clock:inst2|Clock_1Hz_I'
+Slack : -6.441
+TNS   : -35.411
+
+Type  : Fast Model Recovery 'Reset'
+Slack : -5.898
+TNS   : -11.784
+
+Type  : Fast Model Recovery 'Cross_Walk'
+Slack : 0.350
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'Clock_50MHz'
+Slack : 0.520
+TNS   : 0.000
+
+Type  : Fast Model Removal 'Cross_Walk'
+Slack : -0.559
+TNS   : -4.635
+
+Type  : Fast Model Removal 'Clock_50MHz'
+Slack : -0.186
+TNS   : -4.673
+
+Type  : Fast Model Removal 'Reset'
+Slack : 0.002
+TNS   : 0.000
+
+Type  : Fast Model Removal 'Clock:inst2|Clock_1Hz_I'
+Slack : 0.461
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'Reset'
+Slack : -6.673
+TNS   : -850.498
+
+Type  : Fast Model Minimum Pulse Width 'Clock_27MHz'
+Slack : -2.000
+TNS   : -6975.380
+
+Type  : Fast Model Minimum Pulse Width 'Cross_Walk'
+Slack : -1.380
+TNS   : -43.562
+
+Type  : Fast Model Minimum Pulse Width 'Clock_50MHz'
+Slack : -1.380
+TNS   : -27.380
+
+Type  : Fast Model Minimum Pulse Width 'Clock:inst2|Clock_1Hz_I'
+Slack : -0.500
+TNS   : -25.000
+
+Type  : Fast Model Minimum Pulse Width 'Memory:inst6|vga_sync:vga|pixel_row[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'Memory:inst6|vga_sync:vga|pixel_row[10]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'Memory:inst6|vga_sync:vga|video_on_h'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

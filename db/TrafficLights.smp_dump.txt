@@ -1,0 +1,22 @@
+
+State Machine - |TrafficLights|Entity_Traffic:inst|State
+Name State.N6 State.N5 State.N4 State.N3 State.N2 State.N1 State.N0 State.A5 State.A4 State.A3 State.A2 State.A1 State.A0 State.S5 State.S4 State.S3 State.S2 State.S1 State.S0 
+State.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+State.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+State.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+State.S3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+State.S4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+State.S5 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+State.A0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+State.A1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+State.A2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+State.A3 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+State.A4 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+State.A5 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+State.N0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+State.N1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+State.N2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+State.N3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+State.N4 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+State.N5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+State.N6 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

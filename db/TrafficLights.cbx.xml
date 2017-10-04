@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="TrafficLights">
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char11|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char19|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char20|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char28|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char12|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char21|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char29|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char30|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char3|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char13|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char22|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char31|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char4|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char14|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char23|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char32|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char5|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char15|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char24|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char6|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char16|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char25|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char7|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char17|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char26|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char8|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char10|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char18|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char27|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TrafficLights|Memory:inst6|Character_Memory:char9|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0gc1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
